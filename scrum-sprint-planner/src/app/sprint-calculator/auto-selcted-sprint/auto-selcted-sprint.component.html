@@ -1,0 +1,16 @@
+    <h2>{{sprintName}}</h2>
+<div class="main-container">
+    <ng-container *ngFor="let story of selectedStory">
+        <!-- @if(story.selected){ -->
+        <ul class="container">
+            <li class="story-points">Points: {{story.storyPoint}}</li>
+            <li>
+                <h3>{{story.storyName}}</h3>
+            </li>
+            <li> {{story.storyDesc}} </li>
+        </ul>
+        <!-- } -->
+
+    </ng-container>
+
+</div>

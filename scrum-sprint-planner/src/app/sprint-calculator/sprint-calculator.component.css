@@ -1,0 +1,16 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    input{
+        width: 300px;
+        margin-top: 15px;
+    }
+}
+.story-button{
+    width: 307px;
+    background-color: navy;
+    margin-top: 15px;
+    color: white;
+}

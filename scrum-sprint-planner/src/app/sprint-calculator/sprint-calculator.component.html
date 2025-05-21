@@ -1,0 +1,14 @@
+<div class="main-container">
+<h3>Sprint Calculator</h3>
+<input type="text" name="sprintName" placeholder="Sprint name" [(ngModel)]="sprintName"
+>
+<input type="text" name="sprintPoint" placeholder="Sprint Point" #sprintPoint>
+<button type="submit" class="story-button" (click)="generateSprint(sprintPoint.value
+)"
+>Generate Sprint</button>
+<button type="submit" class="story-button" (click)="clearStories()">Clear Stories</button>
+<button type="submit" class="story-button" (click)="clearSelectedstories()">Clear Sprints</button>
+</div>
+
+<app-auto-selcted-sprint [selectedStory]="storyList" [sprintName]="sprintName"
+></app-auto-selcted-sprint>

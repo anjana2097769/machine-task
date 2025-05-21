@@ -1,0 +1,8 @@
+<div class="main-container">
+    <h3>Add Story Form</h3>
+    <input type="text" name="storyName" placeholder="Story name" #storyName>
+    <input type="text" name="storyPoint" placeholder="Story Point" #storyPoint>
+    <input type="text" name="storyDesc" placeholder="Story Description" #storyDesc>
+    <button type="submit" class="story-button" (click)="saveStory(storyName.value,storyPoint.value,storyDesc.value)">
+        Add Story</button>
+</div>
